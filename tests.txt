@@ -1,0 +1,42 @@
+# Tests
+
+## Test 1 - Navigate from hero to menu and start an order [sanity]
+Viewport: mobile
+Covers: hero CTA navigation, specialties section, WhatsApp order CTA, mobile-first interaction
+Description: Verifies the primary visitor journey from the hero into the menu and onward to ordering.
+Steps:
+1. Load the homepage at a mobile viewport.
+2. Tap "VIEW MENU".
+3. Tap an "ORDER NOW" link in the specialties section.
+Expected: The page smoothly reaches the specialties section, and the order action points to the BigGrillz WhatsApp ordering URL.
+
+## Test 2 - Use the three ordering options
+Viewport: desktop
+Covers: WhatsApp ordering, Glovo ordering, Chowdeck ordering, touch/click targets
+Description: Verifies all three requested ordering paths are clearly presented and actionable without inventing delivery details.
+Steps:
+1. Open the "ORDER NOW" section.
+2. Select the WhatsApp card.
+3. Return and select the Glovo card.
+4. Return and select the Chowdeck card.
+Expected: WhatsApp opens the prefilled BigGrillz chat link, while Glovo and Chowdeck open their respective platforms with instructions to search for Big Grillz LASGIDI.
+
+## Test 3 - Open and close the mobile navigation
+Viewport: mobile
+Covers: responsive navigation, menu state, section links
+Description: Verifies the mobile navigation can be opened and closed and exposes the main page sections.
+Steps:
+1. Tap the hamburger menu.
+2. Verify About, Menu, Gallery, and Order links are visible.
+3. Tap Gallery.
+Expected: The navigation closes and the page scrolls to the gallery section.
+
+## Test 4 - Verify brand imagery and packaging content
+Viewport: desktop
+Covers: logo display, hero food photography, signature platter, packaging showcase, gallery imagery
+Description: Verifies the supplied BigGrillz assets are used across the core visual experience and the requested packaging/story sections are present.
+Steps:
+1. Load the homepage.
+2. Review the hero and signature meal sections.
+3. Scroll to the packaging and gallery sections.
+Expected: The BigGrillz logo is visible in the header/footer, supplied food imagery appears in hero, signature, packaging and gallery areas, and the packaging copy states that the inside lid remains clean kraft.
